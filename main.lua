@@ -97,3 +97,11 @@ AddHook("OnRender", "Berzerk", function(DeltaTime)
         end
     end
 end)
+
+while true do
+    if var then
+        if var.on then
+            runscript()
+        end
+    end
+end
