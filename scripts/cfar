@@ -1,0 +1,11 @@
+var = {
+    far=0
+}
+
+run = function()
+    local fchanged, newVal = ImGui.InputInt("Input int2", var.far, 10)
+    
+    if fchanged then
+        var.far = newVal
+    end
+end
