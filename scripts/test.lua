@@ -1,1 +1,3 @@
-ImGui.TextUnformatted("anjay")
+return function()
+  ImGui.TextUnformatted("anjay")
+end
