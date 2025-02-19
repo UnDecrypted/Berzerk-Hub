@@ -86,7 +86,6 @@ AddHook("OnRender", "Berzerk", function(DeltaTime)
                 if CurTab ~= v.name then
                     doLog(v.link)
                     load(makeRequest(v.link, "GET").content)()
-                    doLog(run)
                     CurTab = v.name
                 end
                 if run then
