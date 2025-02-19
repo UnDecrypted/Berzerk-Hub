@@ -1,3 +1,3 @@
-run = function()
+return function()
     ImGui.TextUnformatted("no news fr...")
 end
