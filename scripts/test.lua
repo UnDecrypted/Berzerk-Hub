@@ -1,1 +1,1 @@
-doLog("anjay")
+ImGui.TextUnformatted("anjay")
