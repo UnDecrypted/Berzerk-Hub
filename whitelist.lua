@@ -3,5 +3,6 @@ whitelist = {
 }
 
 scripts = {
-  {name="kntl", link="https://raw.githubusercontent.com/UnDecrypted/Berzerk-Hub/refs/heads/main/scripts/test.lua"}
+  {name="kntl", link="https://raw.githubusercontent.com/UnDecrypted/Berzerk-Hub/refs/heads/main/scripts/test.lua"},
+  {name="cihuy", link="https://raw.githubusercontent.com/UnDecrypted/Berzerk-Hub/refs/heads/main/scripts/test.lua"}
 }
