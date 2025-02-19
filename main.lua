@@ -9,6 +9,8 @@ LUser = nil
 CurTab = ""
 Func = nil
 
+var = nil
+
 AddHook("OnRender", "Berzerk", function(DeltaTime)
     if not Logged then
         local screenWidth = getScreenSize().x
