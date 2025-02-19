@@ -106,4 +106,5 @@ while true do
             runscript()
         end
     end
+    sleep(100)
 end
