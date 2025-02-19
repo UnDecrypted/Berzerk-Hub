@@ -85,12 +85,12 @@ AddHook("OnRender", "Berzerk", function(DeltaTime)
               if ImGui.BeginTabItem(v.name) then
                 if CurTab ~= v.name then
                     doLog(v.link)
-                    Func = load(makeRequest(v.link, "GET").content)()
-                    doLog(Func)
+                    load(makeRequest(v.link, "GET").content)()
+                    doLog(run)
                     CurTab = v.name
                 end
-                if Func then
-                    Func()
+                if run then
+                    run()
                 end
                 ImGui.EndTabItem()
               end
