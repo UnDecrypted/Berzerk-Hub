@@ -95,6 +95,8 @@ AddHook("OnRender", "Berzerk", function(DeltaTime)
                 end
                 ImGui.EndTabItem()
               end
+
+              ImGui.PopID()
           end
         end
 
