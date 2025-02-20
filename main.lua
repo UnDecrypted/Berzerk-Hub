@@ -107,8 +107,8 @@ end)
 while true do
     if var then
         if var.on then
-            runscript()
+        runscript()
         end
     end
-    sleep(1000)
+    sleep(2000)
 end
