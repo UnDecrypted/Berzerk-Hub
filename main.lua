@@ -97,6 +97,8 @@ AddHook("OnRender", "Berzerk", function(DeltaTime)
               end
           end
         end
+
+        ImGui.End()
     end
 end)
 
