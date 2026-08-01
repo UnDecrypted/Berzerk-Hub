@@ -1,6 +1,11 @@
-[
-    {
-        "channel": 0,
-        "content": "hai"
-    }
-]
+{
+    "config": {
+        "delay": 3  # Delay dalam detik
+    },
+    "data": [
+        {
+            "channel": 0,
+            "content": "hai"
+        }
+    ]
+}
