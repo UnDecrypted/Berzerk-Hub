@@ -1,6 +1,6 @@
 [
-  {
-    ["channel"] : 00,
-    ["content"] : "hai"
-  }
+    {
+        "channel": 0,
+        "content": "hai"
+    }
 ]
