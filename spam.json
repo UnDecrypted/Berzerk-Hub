@@ -1,6 +1,6 @@
 {
     "config": {
-        "delay": 3  # Delay dalam detik
+        "delay": 600
     },
     "data": [
         {
